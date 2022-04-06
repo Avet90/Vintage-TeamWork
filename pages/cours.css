@@ -1,3 +1,15 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/golos-text.css);
+@import url(../blocks/main-content/main-content.css);
+@import url(../blocks/main-content/__title/main-content__title.css);
+@import url(../blocks/main-content/__container/main-content__container.css);
+@import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__accordion-head/card__accordion-head.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__accordion-button/card__accordion-button.css);
+@import url(../blocks/card/__accordion-body/card__accordion-body.css);
+
 body {
   margin: 0;
 }
