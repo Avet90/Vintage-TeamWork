@@ -9,6 +9,15 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__accordion-button/card__accordion-button.css);
 @import url(../blocks/card/__accordion-body/card__accordion-body.css);
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__photo/profile__photo.css);
+@import url(../blocks/profile/__characteristics/profile__characteristics.css);
+@import url(../blocks/profile/__characteristic/profile__characteristic.css);
+@import url(../blocks/profile/__icon/profile__icon.css);
+@import url(../blocks/profile/__text/profile__text.css);
+@import url(../blocks/profile/__text/_alert/profile__text_alert.css);
+@import url(../blocks/profile/__alert/profile__alert.css);
+@import url(../blocks/profile/__continue-button/profile__continue-button.css);
 
 body {
   margin: 0;
