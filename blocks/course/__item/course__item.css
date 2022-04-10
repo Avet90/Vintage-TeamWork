@@ -3,5 +3,9 @@
   font-size: 18px;
   line-height: 24px;
   color: #212329;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
+}
+
+.course__item:nth-of-type(5n) {
+  margin-bottom: 0;
 }
