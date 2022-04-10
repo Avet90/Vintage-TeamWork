@@ -1,0 +1,7 @@
+.index__lessons {
+    list-style-type: none;
+    display: grid;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
