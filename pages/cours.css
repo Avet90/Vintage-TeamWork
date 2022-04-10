@@ -18,6 +18,13 @@
 @import url(../blocks/profile/__text/_alert/profile__text_alert.css);
 @import url(../blocks/profile/__alert/profile__alert.css);
 @import url(../blocks/profile/__continue-button/profile__continue-button.css);
+@import url(../blocks/course/course.css);
+@import url(../blocks/course/__paragraph/course__paragraph.css);
+@import url(../blocks/course/__subtitle/course__subtitle.css);
+@import url(../blocks/course/__list/course__list.css);
+@import url(../blocks/course/__item/course__item.css);
+
+
 
 body {
   margin: 0;
