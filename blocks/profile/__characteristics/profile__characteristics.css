@@ -1,0 +1,10 @@
+.profile__characteristics {
+  list-style-type: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 16px;
+  padding: 32px;
+  box-sizing: border-box;
+  width: 100%;
+}

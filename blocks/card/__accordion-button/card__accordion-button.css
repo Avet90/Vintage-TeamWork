@@ -1,0 +1,16 @@
+.card__accordion-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+.card__accordion-button:hover {
+  opacity: 0.6;
+}
