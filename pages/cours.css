@@ -9,6 +9,14 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__accordion-button/card__accordion-button.css);
 @import url(../blocks/card/__accordion-body/card__accordion-body.css);
+@import url(../blocks/index/index.css);
+@import url(../blocks/index/__chapter-block/index__chapter-block.css);
+@import url(../blocks/index/__chapter-title/index__chapter-title.css);
+@import url(../blocks/index/__lessons/index__lessons.css);
+@import url(../blocks/index/__lesson/index__lesson.css);
+@import url(../blocks/index/__lesson-type/index__lesson-type.css);
+@import url(../blocks/index/__lesson-icon/index__lesson-icon.css);
+@import url(../blocks/index/__lesson-done/index__lesson-done.css);
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__photo/profile__photo.css);
 @import url(../blocks/profile/__characteristics/profile__characteristics.css);

@@ -1,0 +1,8 @@
+.index__lesson-done {
+    display: block;
+    padding: 0;
+    margin: 0;
+    object-position: center;
+    object-fit: cover;
+    margin-left: auto;
+}
