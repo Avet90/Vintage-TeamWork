@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/fonts/golos-text.css" />
-    <link rel="stylesheet" href="./pages/cours.css" />
-    <link rel="stylesheet" href="./scripts/cours.js" />
+    <link rel="stylesheet" href="./pages/lesson.css" />
     <title>Текст</title>
   </head>
   <body class="page">
@@ -35,5 +33,43 @@
         </ul>
       </nav>
     </header>
+    <div class="main-content">
+      <ul class="links-path">
+        <div style="width: 1320px; height: 24px; background-color: black"></div>
+      </ul>
+      <div class="main-content__container">
+        <div class="class-container">
+          <section class="card">
+            <div
+              style="width: 808px; height: 1580px; background-color: black"
+            ></div>
+          </section>
+          <div class="section-button">
+            <button type="button" class="button button_action_back">
+              <img
+                src="./images/Button_back.svg"
+                alt="Назад"
+                class="button__image button__image_position_left"
+              />
+              Назад
+            </button>
+            <button type="button" class="button button_action_forward">
+              Далее
+              <img
+                src="./images/Button_next.svg"
+                alt="Далее"
+                class="button__image button__image_position_right"
+              />
+            </button>
+          </div>
+        </div>
+        <section class="card">
+          <div
+            style="width: 360px; height: 1683px; background-color: black"
+          ></div>
+        </section>
+      </div>
+    </div>
+    <script src="scripts/lesson.js"></script>
   </body>
 </html>
