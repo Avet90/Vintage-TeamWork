@@ -1,0 +1,7 @@
+.breadcrumbs__list {
+  display: flex;
+  padding: 0;
+  margin-top: 26px;
+  margin-bottom: 32px;
+  margin-left: 60px;
+}
