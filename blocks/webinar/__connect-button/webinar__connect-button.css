@@ -1,0 +1,10 @@
+.webinar__connect-button {
+  padding: 12px 26.5px;
+  border: none;
+  color: #fff;
+  background-color: #FF6600;
+}
+
+.webinar__connect-button:hover {
+  opacity: .8;
+}

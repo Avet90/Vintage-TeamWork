@@ -20,6 +20,10 @@
 @import url(../blocks/button/__image/button__image.css);
 @import url(../blocks/button/__image/_position/button__image_position_left.css);
 @import url(../blocks/button/__image/_position/button__image_position_right.css);
+@import url(../blocks/webinar/webinar.css);
+@import url(../blocks/webinar/__title/webinar__title.css);
+@import url(../blocks/webinar/__text/webinar__text.css);
+@import url(../blocks/webinar/__connect-button/webinar__connect-button.css);
 
 .links-path {
   padding: 0;
