@@ -1,0 +1,14 @@
+.index__accordion-button {
+  background: transparent url(../../../images/icon_arrow-up.svg) no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  cursor: pointer;
+}
