@@ -1,6 +1,5 @@
 .index__chapter-block {
     display: grid;
-    align-items: flex-start;
     gap: 24px;
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 1px solid #E6E7EB;

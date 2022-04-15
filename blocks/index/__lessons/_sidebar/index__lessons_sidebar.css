@@ -1,0 +1,5 @@
+.index__lessons_sidebar {
+  max-height: 0;
+  overflow: hidden;
+  grid-column: 1 / 3;
+}

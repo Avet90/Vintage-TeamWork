@@ -24,6 +24,19 @@
 @import url(../blocks/webinar/__title/webinar__title.css);
 @import url(../blocks/webinar/__text/webinar__text.css);
 @import url(../blocks/webinar/__connect-button/webinar__connect-button.css);
+@import url(../blocks/index/index.css);
+@import url(../blocks/index/_sidebar/index_sidebar.css);
+@import url(../blocks/index/__chapter-block/index__chapter-block.css);
+@import url(../blocks/index/__accordion-button/index__accordion-button.css);
+@import url(../blocks/index/__chapter-block/_sidebar/index__chapter-block_sidebar.css);
+@import url(../blocks/index/__chapter-title/index__chapter-title.css);
+@import url(../blocks/index/__lessons/index__lessons.css);
+@import url(../blocks/index/__lessons/_sidebar/index__lessons_sidebar.css);
+@import url(../blocks/index/__lesson/index__lesson.css);
+@import url(../blocks/index/__lesson/_active/index__lesson_active.css);
+@import url(../blocks/index/__lesson-type/index__lesson-type.css);
+@import url(../blocks/index/__lesson-icon/index__lesson-icon.css);
+@import url(../blocks/index/__lesson-done/index__lesson-done.css);
 
 .links-path {
   padding: 0;
