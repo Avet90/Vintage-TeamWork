@@ -1,0 +1,7 @@
+.training__text {
+  font-size: 18px;
+  line-height: 24px;
+}
+.training__text:last-child {
+  margin-bottom: 0;
+}

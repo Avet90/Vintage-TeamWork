@@ -34,6 +34,8 @@
 @import url(../blocks/index/__lesson-type/index__lesson-type.css);
 @import url(../blocks/index/__lesson-icon/index__lesson-icon.css);
 @import url(../blocks/index/__lesson-done/index__lesson-done.css);
+@import url(../blocks/training/__subtitle/training__subtitle.css);
+@import url(../blocks/training/__text/training__text.css);
 
 .links-path {
   padding: 0;
