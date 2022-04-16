@@ -36,9 +36,9 @@
 @import url(../blocks/index/__lesson-done/index__lesson-done.css);
 @import url(../blocks/training/__subtitle/training__subtitle.css);
 @import url(../blocks/training/__text/training__text.css);
-
-.links-path {
-  padding: 0;
-  margin: 0;
-  padding-bottom: 32px;
-}
+@import url(../blocks/breadcrumbs/breadcrumbs.css);
+@import url(../blocks/breadcrumbs/__list/breadcrumbs__list.css);
+@import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
+@import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
+@import url(../blocks/breadcrumbs/__icon/breadcrumbs__icon.css);
+@import url(../blocks/breadcrumbs/__link-current/breadcrumbs__link-current.css);
