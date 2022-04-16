@@ -1,0 +1,10 @@
+.button_action_back {
+  background-color: #fff;
+  color: #f60;
+  border: 1.2px solid #e6e7eb;
+  width: 184px;
+  margin: 0 auto;
+}
+.button_action_back:hover {
+  border-color: #f60;
+}

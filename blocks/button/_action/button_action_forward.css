@@ -1,0 +1,9 @@
+.button_action_forward {
+  background-color: #f60;
+  color: #fff;
+  border: 0;
+}
+
+.button_action_forward:hover {
+  opacity: 0.8;
+}

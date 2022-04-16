@@ -1,0 +1,10 @@
+.index__chapter-title {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+}

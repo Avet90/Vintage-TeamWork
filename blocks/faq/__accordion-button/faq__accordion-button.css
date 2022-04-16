@@ -1,0 +1,12 @@
+.faq__accordion-button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: url(../../../images/faq-icon.svg) no-repeat center;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.faq__accordion-button:hover {
+  opacity: .6;
+}
