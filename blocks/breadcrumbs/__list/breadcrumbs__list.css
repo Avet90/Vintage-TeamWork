@@ -1,5 +1,6 @@
 .breadcrumbs__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: min-content min-content auto min-content;
   padding: 0;
   padding-bottom: 32px;
   margin: 0;
