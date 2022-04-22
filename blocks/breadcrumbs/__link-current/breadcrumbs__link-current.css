@@ -1,3 +1,7 @@
 .breadcrumbs__link-current {
   color: #9397a3;
 }
+
+.breadcrumbs__link-current:hover {
+  opacity: 0.6;
+}

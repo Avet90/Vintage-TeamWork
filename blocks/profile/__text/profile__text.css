@@ -6,6 +6,8 @@
   color: #212329;
 }
 
-.profile__text:last-of-type {
+.profile__text:last-child {
   margin-left: auto;
 }
+
+

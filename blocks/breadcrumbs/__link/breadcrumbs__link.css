@@ -2,3 +2,7 @@
   text-decoration: none;
   color: #212329;
 }
+
+.breadcrumbs__link:hover {
+  color: #9397A3;
+}

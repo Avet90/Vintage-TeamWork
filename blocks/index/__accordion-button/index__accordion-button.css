@@ -12,3 +12,7 @@
   margin-left: auto;
   cursor: pointer;
 }
+
+.index__accordion-button:hover {
+background-color: #212329;
+}

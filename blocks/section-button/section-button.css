@@ -6,4 +6,6 @@
   justify-content: end;
   grid-template-rows: 48px;
   grid-template-columns: 184px 184px;
+  margin-left: 385px;
+  margin-top: 30px;
 }
