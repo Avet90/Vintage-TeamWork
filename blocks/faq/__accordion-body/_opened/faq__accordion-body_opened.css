@@ -1,0 +1,4 @@
+.faq__accordion-body_opened {
+  padding-top: 32px;
+  max-height: 100%;
+}

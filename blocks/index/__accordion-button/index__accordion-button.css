@@ -1,5 +1,5 @@
 .index__accordion-button {
-  background: transparent url(../../../images/icon_arrow-up.svg) no-repeat;
+  background: transparent url(../../../images/icon_arrow-down.svg) no-repeat;
   background-size: 24px 24px;
   background-position: center;
   display: block;
@@ -11,4 +11,9 @@
   height: 24px;
   margin-left: auto;
   cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.index__accordion-button:hover {
+  opacity: .6;
 }

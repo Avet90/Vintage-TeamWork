@@ -1,15 +1,15 @@
-.index__chapter-block_sidebar {
+.index__chapter-block_position_sidebar {
   gap: 0;
   grid-template-columns: 1fr 24px;
   border-top: 1px solid #E6E7EB;
   padding: 33px 0 33px 0;
 }
 
-.index__chapter-block:last-child {
+.index__chapter-block_position_sidebar:last-child {
   border-bottom: 0px;
   padding: 33px 0 0 0;
 }
 
-.index__chapter-block:first-child {
+.index__chapter-block_position_sidebar:first-child {
   padding: 33px 0 33px 0;
 }
