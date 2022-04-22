@@ -4,18 +4,14 @@ const accordions = document.getElementsByClassName('card__accordion-body');
 const faqButtons = document.getElementsByClassName('faq__accordion-button');
 
 for (let i = 0; i < accButtons.length; i++) {
-  accordions[i].style.paddingTop = '32px';
-  accordions[i].style.maxHeight = accordions[i].scrollHeight + 'px';
-  accButtons[i].addEventListener('click', function() {
+  accordions[i].classList.add('card__accordion-body_opened');
+  accButtons[i].addEventListener('click', function(evt) {
     const accordion = this.closest('.card').querySelector('.card__accordion-body');
-    accordion.style.transition = 'all 0.2s ease-out';
-    if (accordion.style.maxHeight) {
-      accordion.style.paddingTop = null;
-      accordion.style.maxHeight = null;
+    if (accordion.classList.contains('card__accordion-body_opened')) {
+      accordion.classList.remove('card__accordion-body_opened');
       this.textContent = 'Развернуть';
     } else {
-      accordion.style.paddingTop = '32px';
-      accordion.style.maxHeight = accordion.scrollHeight + 'px';
+      accordion.classList.add('card__accordion-body_opened');
       this.textContent = 'Свернуть';
     }
   });
@@ -23,17 +19,13 @@ for (let i = 0; i < accButtons.length; i++) {
 
 for (let i = 0; i < faqButtons.length; i++) {
   faqButtons[i].addEventListener('click', function() {
-    const mainAccordion = this.closest('.card__accordion-body');
     const faqAccordion = this.closest('.faq__question').querySelector('.faq__accordion-body');
-    if (faqAccordion.style.maxHeight) {
-      faqAccordion.style.paddingTop = null;
-      faqAccordion.style.maxHeight = null;
-      this.style.transform = null;
+    if (faqAccordion.classList.contains('faq__accordion-body_opened')) {
+      this.classList.remove('faq__accordion-button_opened');
+      faqAccordion.classList.remove('faq__accordion-body_opened');
     } else {
-      faqAccordion.style.paddingTop = '32px';
-      mainAccordion.style.maxHeight = (mainAccordion.scrollHeight + faqAccordion.scrollHeight) + 'px';
-      faqAccordion.style.maxHeight = faqAccordion.scrollHeight + 'px';
-      this.style.transform = 'rotate(180deg)';
+      this.classList.add('faq__accordion-button_opened');
+      faqAccordion.classList.add('faq__accordion-body_opened');
     }
   });
 }
