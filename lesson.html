@@ -37,10 +37,10 @@
       <nav class="breadcrumbs">
         <ul class="breadcrumbs__list">
           <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" itemprop="item" href="#">Курсы</a>
+            <a class="breadcrumbs__link" href="#">Курсы</a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" itemprop="item" href="#"
+            <a class="breadcrumbs__link" href="cours.html"
               ><img
                 class="breadcrumbs__icon"
                 src="./images/breadcrumbs-icon.svg"
@@ -49,7 +49,7 @@
             </a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" itemprop="item" href="#"
+            <a class="breadcrumbs__link" href=""
               ><img
                 class="breadcrumbs__icon"
                 src="./images/breadcrumbs-icon.svg"
@@ -59,10 +59,7 @@
             </a>
           </li>
           <li class="breadcrumbs__item">
-            <a
-              class="breadcrumbs__link breadcrumbs__link_current"
-              itemprop="item"
-              href=""
+            <a class="breadcrumbs__link breadcrumbs__link-current" href=""
               ><img
                 class="breadcrumbs__icon"
                 src="./images/breadcrumbs-icon.svg"
@@ -175,22 +172,26 @@
             </div>
           </section>
           <div class="section-button">
-            <button type="button" class="button button_action_back">
-              <img
-                src="./images/Button_back.svg"
-                alt="Назад"
-                class="button__image button__image_direction_left"
-              />
-              Назад
-            </button>
-            <button type="button" class="button button_action_forward">
-              Далее
-              <img
-                src="./images/Button_next.svg"
-                alt="Далее"
-                class="button__image button__image_direction_right"
-              />
-            </button>
+            <form action="#">
+              <button type="submit" class="button button_action_back">
+                <img
+                  src="./images/Button_back.svg"
+                  alt="Назад"
+                  class="button__image button__image_position_left"
+                />
+                Назад
+              </button>
+            </form>
+            <form action="webinar.html">
+              <button type="submit" class="button button_action_forward">
+                Далее
+                <img
+                  src="./images/Button_next.svg"
+                  alt="Далее"
+                  class="button__image button__image_position_right"
+                />
+              </button>
+            </form>
           </div>
         </div>
         <section class="card">
@@ -384,7 +385,7 @@
                         fill="#212329"
                       />
                     </svg>
-                    <a href="#" class="index__lesson-type"
+                    <a href="" class="index__lesson-type"
                       >Дрессировка поисково-спасательных собак</a
                     >
                   </li>
@@ -403,7 +404,9 @@
                         fill="#212329"
                       />
                     </svg>
-                    <a href="#" class="index__lesson-type">Вебинар</a>
+                    <a href="webinar.html" class="index__lesson-type"
+                      >Вебинар</a
+                    >
                   </li>
                   <li class="index__lesson">
                     <svg
