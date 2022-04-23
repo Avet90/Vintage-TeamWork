@@ -1,0 +1,3 @@
+.index__accordion-button_opened {
+  transform: rotate(180deg);
+}

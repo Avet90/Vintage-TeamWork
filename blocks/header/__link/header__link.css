@@ -8,3 +8,8 @@
   line-height: 24px;
   color: #212329;
 }
+
+.header__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
