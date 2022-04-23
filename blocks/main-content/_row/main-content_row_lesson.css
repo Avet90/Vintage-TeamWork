@@ -1,0 +1,4 @@
+.main-content_row_lesson {
+  grid-template-rows: 1580px auto;
+  gap: 0 24px;
+}

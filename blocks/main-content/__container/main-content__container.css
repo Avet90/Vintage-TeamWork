@@ -1,6 +1,6 @@
 .main-content__container {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: minmax(auto, 872px) 424px;
   align-items: start;
   gap: 24px;
 }

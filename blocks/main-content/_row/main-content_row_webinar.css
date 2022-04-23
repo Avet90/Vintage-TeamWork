@@ -1,0 +1,4 @@
+.main-content_row_webinar {
+  grid-template-rows: 228px auto;
+  gap: 0 24px;
+}

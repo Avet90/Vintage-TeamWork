@@ -1,7 +1,4 @@
 .index__lesson_active {
   color: #F06000;
-}
-
-.index__lesson_active * {
-  fill: #F06000;
+  filter: invert(47%) sepia(93%) saturate(3598%) hue-rotate(5deg) brightness(98%) contrast(102%);
 }

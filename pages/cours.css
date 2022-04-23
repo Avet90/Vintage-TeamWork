@@ -9,6 +9,7 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__accordion-button/card__accordion-button.css);
 @import url(../blocks/card/__accordion-body/card__accordion-body.css);
+@import url(../blocks/card/__accordion-body/_opened/card__accordion-body_opened.css);
 @import url(../blocks/index/index.css);
 @import url(../blocks/index/__chapter-block/index__chapter-block.css);
 @import url(../blocks/index/__chapter-title/index__chapter-title.css);
@@ -23,7 +24,7 @@
 @import url(../blocks/profile/__characteristic/profile__characteristic.css);
 @import url(../blocks/profile/__icon/profile__icon.css);
 @import url(../blocks/profile/__text/profile__text.css);
-@import url(../blocks/profile/__text/_alert/profile__text_alert.css);
+@import url(../blocks/profile/__text/_type/profile__text_type_alert.css);
 @import url(../blocks/profile/__alert/profile__alert.css);
 @import url(../blocks/profile/__continue-button/profile__continue-button.css);
 @import url(../blocks/page/page.css);
@@ -47,4 +48,6 @@
 @import url(../blocks/faq/__question/faq__question.css);
 @import url(../blocks/faq/__title/faq__title.css);
 @import url(../blocks/faq/__accordion-button/faq__accordion-button.css);
+@import url(../blocks/faq/__accordion-button/_opened/faq__accordion-button_status_opened.css);
 @import url(../blocks/faq/__accordion-body/faq__accordion-body.css);
+@import url(../blocks/faq/__accordion-body/_opened/faq__accordion-body_opened.css);
