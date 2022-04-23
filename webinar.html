@@ -33,7 +33,7 @@
         </ul>
       </nav>
     </header>
-    <div class="main-content">
+    <main class="main-content">
       <nav class="breadcrumbs">
         <ul class="breadcrumbs__list">
           <li class="breadcrumbs__item">
@@ -44,7 +44,7 @@
               ><img
                 class="breadcrumbs__icon"
                 src="./images/breadcrumbs-icon.svg"
-                alt="breadcrumbs__icon"
+                alt="стрелка"
               />Кинологическое направление
             </a>
           </li>
@@ -53,7 +53,7 @@
               ><img
                 class="breadcrumbs__icon"
                 src="./images/breadcrumbs-icon.svg"
-                alt="breadcrumbs__icon"
+                alt="стрелка"
               />5. Работа «второго номера» совместно со следовым кинологическим
               расчётом
             </a>
@@ -63,54 +63,30 @@
               ><img
                 class="breadcrumbs__icon"
                 src="./images/breadcrumbs-icon.svg"
-                alt="breadcrumbs__icon"
+                alt="стрелка"
               />Вебинар
             </a>
           </li>
         </ul>
       </nav>
-      <div class="main-content__container">
-        <div class="class-container">
-          <section class="card">
-            <h2 class="card__title">Вебинар</h2>
-            <div class="webinar">
-              <p class="webinar__text">
-                Вебинар стартует
-                <strong class="webinar__text-bold">30.03.2022 в 19:00</strong>
-                МСК (GTM+3)
-              </p>
-              <button
-                type="submit"
-                class="button webinar__connect-button"
-                aria-label="Подключиться к вебинару"
-              >
-                Подключиться
-              </button>
-            </div>
-          </section>
-          <div class="section-button">
-            <form action="lesson.html">
-              <button type="submit" class="button button_action_back">
-                <img
-                  src="./images/Button_back.svg"
-                  alt="Назад"
-                  class="button__image button__image_position_left"
-                />
-                Назад
-              </button>
-            </form>
-            <form action="#">
-              <button type="submit" class="button button_action_forward">
-                Далее
-                <img
-                  src="./images/Button_next.svg"
-                  alt="Далее"
-                  class="button__image button__image_position_right"
-                />
-              </button>
-            </form>
+      <div class="main-content__container main-content_row_webinar">
+        <section class="card">
+          <h2 class="card__title">Вебинар</h2>
+          <div class="webinar">
+            <p class="webinar__text">
+              Вебинар стартует
+              <strong class="webinar__text-bold">30.03.2022 в 19:00</strong>
+              МСК (GTM+3)
+            </p>
+            <button
+              type="submit"
+              class="button webinar__connect-button"
+              aria-label="Подключиться к вебинару"
+            >
+              Подключиться
+            </button>
           </div>
-        </div>
+        </section>
         <section class="card">
           <div class="contents">
             <h2 class="card__title">Содержание</h2>
@@ -420,8 +396,30 @@
             </ul>
           </div>
         </section>
+        <div class="section-button">
+          <form action="lesson.html">
+            <button type="submit" class="button button_action_back">
+              <img
+                src="./images/Button_back.svg"
+                alt="Назад"
+                class="button__image button__image_position_left"
+              />
+              Назад
+            </button>
+          </form>
+          <form action="#">
+            <button type="submit" class="button button_action_forward">
+              Далее
+              <img
+                src="./images/Button_next.svg"
+                alt="Далее"
+                class="button__image button__image_position_right"
+              />
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
+    </main>
     <script src="scripts/lesson.js"></script>
   </body>
 </html>
